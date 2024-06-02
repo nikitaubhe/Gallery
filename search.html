@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-Edge">
+    <meta name="iewportv" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/common.css">
+    <link rel="stylesheet" href="./assets/search.css">
+    <title>Gallery|A photo search app</title>
+</head>
+<body>
+     <!--Navigation Bar-->
+    <nav>
+        <a href="./"><img src="./assets/logo.png" alt="logo" class="logo"></a>
+        <a href="./"><h1 class="title">GALLERY</h1></a>
+        <form action="./search.html" method="get">
+          <input type="text" name="q" autocomplete="off" class="search" placeholder="search any image">
+          <input type="submit" value="search" class="search">
+        </form>
+
+    </nav>
+
+
+    <!--The Main Section-->
+    <section>
+        <h1 class="heading">Results for : <span id="search_query"></span></h1>
+        <div class="container" id="result_container"></div>
+
+    </section>
+
+
+    <!--Footer-->
+    <footer>
+        <a href="./"><h5>Gallery</h5></a>
+        <h2>|</h2>
+        <h5>Designed & Developed by Nikita </h5>
+        <h2>|</h2>
+        <a href="./"><h5>Github</h5></a>
+
+    </footer>
+
+    <script src="./assets/search.js"></script>
+    <script src="./assets/common.js"></script>
+</body>
+</html>
